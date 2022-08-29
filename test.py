@@ -13,6 +13,7 @@ l1.grid(row=1,column=1,columnspan=4)
 b1 = tk.Button(my_w, text='Upload Files', 
    width=20,command = lambda:upload_file())
 b1.grid(row=2,column=1,columnspan=4)
+Label(my_w,text = "Text",font=my_font1).place(x = 400,y = 170)
 
 def upload_file():
     f_types = [('Jpg Files', '*.jpg'),
